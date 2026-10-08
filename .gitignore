@@ -1,0 +1,14 @@
+# Personal data and secrets: never commit anything in data/ except the placeholder
+data/*
+!data/.gitkeep
+*token*.json
+*credentials*.json
+spotify.json
+*.npy
+*.wav
+
+# Environment / caches
+.venv/
+__pycache__/
+*.pyc
+install.log
